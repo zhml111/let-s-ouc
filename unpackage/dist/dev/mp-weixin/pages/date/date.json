@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "一起约吧",
+  "usingComponents": {
+    "uinput": "/components/uinput/uinput"
+  }
+}

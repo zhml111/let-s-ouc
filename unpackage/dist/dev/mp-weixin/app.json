@@ -1,0 +1,54 @@
+{
+  "pages": [
+    "pages/come/come",
+    "pages/login/login",
+    "pages/register/register",
+    "pages/come/come",
+    "pages/talk/talk",
+    "pages/date/date",
+    "pages/my/my",
+    "pages/pics/pics",
+    "components/uinput/uinput",
+    "pages/add/add"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "xml商城！",
+    "navigationBarBackgroundColor": "#b50e03",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#808080",
+    "selectedColor": "#b50e03",
+    "backgroundColor": "#B0C4DE",
+    "borderStyle": "white",
+    "list": [
+      {
+        "text": "一起来吧",
+        "pagePath": "pages/come/come",
+        "iconPath": "static/tags/come.png",
+        "selectedIconPath": "static/tags/come_h.png"
+      },
+      {
+        "text": "一起谈吧",
+        "pagePath": "pages/talk/talk",
+        "iconPath": "static/tags/talk.png",
+        "selectedIconPath": "static/tags/talk_h.png"
+      },
+      {
+        "text": "一起约吧",
+        "pagePath": "pages/date/date",
+        "iconPath": "static/tags/date.png",
+        "selectedIconPath": "static/tags/date_h.png"
+      },
+      {
+        "text": "我的",
+        "pagePath": "pages/my/my",
+        "iconPath": "static/tags/my.png",
+        "selectedIconPath": "static/tags/my_h.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

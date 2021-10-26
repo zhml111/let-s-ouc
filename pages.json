@@ -1,0 +1,143 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		
+		{
+		    "path" : "pages/come/come",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText":"一起来吧"
+		    }
+		    
+		},
+		{
+		    "path" : "pages/login/login",
+		    "style" : {
+		    "navigationBarTitleText" : "登录"
+		 }
+		},
+		{
+		    "path" : "pages/register/register",
+		    "style" : {
+		    "navigationBarTitleText" : "注册"
+		}
+		},
+		{
+		    "path" : "pages/come/come",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText":"一起来吧"
+		    }
+		    
+		},
+	    {
+            "path" : "pages/come/come",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText":"一起来吧"
+            }
+            
+        }
+        ,{
+            "path" : "pages/talk/talk",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText":"一起谈吧"
+            }
+            
+        }
+        ,{
+            "path" : "pages/date/date",
+            "style" :                                                                                    
+            {
+               "navigationBarTitleText":"一起约吧"
+            }
+            
+        }
+        ,{
+            "path" : "pages/my/my",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText":"我的"
+            }
+            
+        }
+        ,{
+            "path" : "pages/pics/pics",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        
+        
+        ,{
+            "path" : "components/uinput/uinput",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/add/add",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+     
+        ,{
+            "path" : "pages/pics/pics",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "xml商城！",
+		"navigationBarBackgroundColor": "#b50e03",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar":{
+		"color":"#808080",
+		"selectedColor":"#b50e03",
+		"backgroundColor":"#B0C4DE",
+		"borderStyle":"white",
+		"list":[
+			
+			{
+				"text":"一起来吧",
+				"pagePath":"pages/come/come",
+				"iconPath":"static/tags/come.png",
+				"selectedIconPath":"static/tags/come_h.png"
+			},
+			{
+				"text":"一起谈吧",
+				"pagePath":"pages/talk/talk",
+				"iconPath":"static/tags/talk.png",
+				"selectedIconPath":"static/tags/talk_h.png"
+			},
+			{
+				"text":"一起约吧",
+				"pagePath":"pages/date/date",
+				"iconPath":"static/tags/date.png",
+				"selectedIconPath":"static/tags/date_h.png"
+			},
+			{
+				"text":"我的",
+				"pagePath":"pages/my/my",
+				"iconPath":"static/tags/my.png",
+				"selectedIconPath":"static/tags/my_h.png"
+			}
+		]
+	}
+}
